@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf1be03a-f7a6-46b0-aa61-d26a9749e9ad" name="Default Changelist" comment="Project skeleton with pom files">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="zelalem" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UqXUdYWw15nAVYx7OCf0OXP1BR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SocialnetworkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SocialNetwork" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.mum.cs544.socialnetwork.socialnetwork.SocialnetworkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf1be03a-f7a6-46b0-aa61-d26a9749e9ad" name="Default Changelist" comment="" />
+      <created>1576085116269</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576085116269</updated>
+      <workItem from="1576085122547" duration="572000" />
+    </task>
+    <task id="LOCAL-00001" summary="Project skeleton">
+      <created>1576085256291</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576085256291</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Project skeleton with pom files">
+      <created>1576085485750</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576085485750</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project skeleton" />
+    <MESSAGE value="Project skeleton with pom files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project skeleton with pom files" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="347" y="37" key="#Notifications" timestamp="1576085740264">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="347" y="37" key="#Notifications/0.0.1707.920@0.0.1707.920" timestamp="1576085740264" />
+    <state x="319" y="0" key="CommitChangelistDialog2" timestamp="1576085694260">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="319" y="0" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1576085694260" />
+    <state width="1643" height="553" key="GridCell.Tab.0.bottom" timestamp="1576085631859">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1643" height="553" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1576085631859" />
+    <state width="1643" height="553" key="GridCell.Tab.0.center" timestamp="1576085631859">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1643" height="553" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1576085631859" />
+    <state width="1643" height="553" key="GridCell.Tab.0.left" timestamp="1576085631858">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1643" height="553" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1576085631858" />
+    <state width="1643" height="553" key="GridCell.Tab.0.right" timestamp="1576085631859">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1643" height="553" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1576085631859" />
+    <state width="1643" height="553" key="GridCell.Tab.1.bottom" timestamp="1576085631860">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1643" height="553" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1576085631860" />
+    <state width="1643" height="553" key="GridCell.Tab.1.center" timestamp="1576085631860">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1643" height="553" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1576085631860" />
+    <state width="1643" height="553" key="GridCell.Tab.1.left" timestamp="1576085631860">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1643" height="553" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1576085631860" />
+    <state width="1643" height="553" key="GridCell.Tab.1.right" timestamp="1576085631860">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1643" height="553" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1576085631860" />
+    <state x="493" y="110" key="MultipleFileMergeDialog" timestamp="1576085725374">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="493" y="110" key="MultipleFileMergeDialog/0.0.1707.920@0.0.1707.920" timestamp="1576085725374" />
+    <state x="347" y="130" key="Vcs.Push.Dialog.v2" timestamp="1576085671462">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="347" y="130" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1576085671462" />
+    <state x="552" y="110" key="git4idea.branch.GitSmartOperationDialog" timestamp="1576085706750">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="552" y="110" key="git4idea.branch.GitSmartOperationDialog/0.0.1707.920@0.0.1707.920" timestamp="1576085706750" />
+    <state x="463" y="225" key="git4idea.merge.GitPullDialog" timestamp="1576085225598">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="463" y="225" key="git4idea.merge.GitPullDialog/0.0.1707.920@0.0.1707.920" timestamp="1576085225598" />
+  </component>
+</project>
