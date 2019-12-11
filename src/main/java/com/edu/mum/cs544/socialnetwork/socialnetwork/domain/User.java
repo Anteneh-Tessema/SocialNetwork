@@ -6,8 +6,6 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
 import javax.persistence.Id;
 
 @Entity
@@ -18,6 +16,7 @@ public class User implements Serializable{
 
 	@Id
 	private String id;
+	
 	
 	private String firstName;
 	

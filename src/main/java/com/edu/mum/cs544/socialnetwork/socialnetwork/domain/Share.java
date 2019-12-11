@@ -1,5 +1,7 @@
 package com.edu.mum.cs544.socialnetwork.socialnetwork.domain;
 
+
+
 import java.util.UUID;
 
 import javax.persistence.Entity;
@@ -8,47 +10,47 @@ import javax.persistence.ManyToOne;
 
 @Entity
 public class Share{
-	
-	
-	private static final long serialVersionUID = 1L;
-	
-	@Id
-	private String id;
-	
-	@ManyToOne
-	private User sharedBy;
-	
-	private String comment;
-	
-	public Share() {
-		this.id = UUID.randomUUID().toString();
-		
-	}
 
-	public String getId() {
-		return id;
-	}
 
-	public void setId(String id) {
-		this.id = id;
-	}
+    private static final long serialVersionUID = 1L;
 
-	public User getSharedBy() {
-		return sharedBy;
-	}
+    @Id
+    private String id;
 
-	public void setSharedBy(User sharedBy) {
-		this.sharedBy = sharedBy;
-	}
+    @ManyToOne
+    private User sharedBy;
 
-	public String getComment() {
-		return comment;
-	}
+    private String comment;
 
-	public void setComment(String comment) {
-		this.comment = comment;
-	}
-	
-	
+    public Share() {
+        this.id = UUID.randomUUID().toString();
+
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public User getSharedBy() {
+        return sharedBy;
+    }
+
+    public void setSharedBy(User sharedBy) {
+        this.sharedBy = sharedBy;
+    }
+
+    public String getComment() {
+        return comment;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
+    }
+
+
 
 }
