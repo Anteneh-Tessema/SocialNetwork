@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf1be03a-f7a6-46b0-aa61-d26a9749e9ad" name="Default Changelist" comment="Project skeleton with pom files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Share.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Tag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/User.java" afterDir="false" />
+    <list default="true" id="cf1be03a-f7a6-46b0-aa61-d26a9749e9ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Share.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Share.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/edu/mum/cs544/socialnetwork/socialnetwork/SocialnetworkApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/edu/mum/cs544/socialnetwork/socialnetwork/SocialnetworkApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +94,7 @@
       <updated>1576085116269</updated>
       <workItem from="1576085122547" duration="572000" />
       <workItem from="1576098920618" duration="109000" />
-      <workItem from="1576099036158" duration="636000" />
+      <workItem from="1576099036158" duration="1148000" />
     </task>
     <task id="LOCAL-00001" summary="Project skeleton">
       <created>1576085256291</created>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576085485750</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Project skeleton with pom files">
+      <created>1576099765073</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576099765073</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,11 +138,15 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="534" y="255" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1576099656151" />
-    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1576099636215">
+    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1576099761465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="255" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576099636215" />
+    <state x="255" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576099761465" />
     <state x="319" y="0" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1576085694260" />
+    <state x="132" y="58" key="DiffContextDialog" timestamp="1576100157289">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="132" y="58" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1576100157289" />
     <state width="1643" height="553" key="GridCell.Tab.0.bottom" timestamp="1576085631859">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -172,9 +183,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="493" y="110" key="MultipleFileMergeDialog/0.0.1707.920@0.0.1707.920" timestamp="1576085725374" />
-    <state x="347" y="130" key="Vcs.Push.Dialog.v2" timestamp="1576085671462">
-      <screen x="0" y="0" width="1707" height="920" />
+    <state x="278" y="103" key="Vcs.Push.Dialog.v2" timestamp="1576100161190">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="278" y="103" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576100161190" />
     <state x="347" y="130" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1576085671462" />
     <state x="494" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576099553870">
       <screen x="0" y="0" width="1366" height="728" />

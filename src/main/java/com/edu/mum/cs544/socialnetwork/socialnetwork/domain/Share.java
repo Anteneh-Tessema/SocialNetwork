@@ -7,7 +7,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
 @Entity
-public class Share extends Activity{
+public class Share{
 	
 	
 	private static final long serialVersionUID = 1L;
