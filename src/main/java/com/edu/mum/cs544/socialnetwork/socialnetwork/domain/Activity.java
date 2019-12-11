@@ -11,29 +11,29 @@ import java.time.LocalDateTime;
 
 
 @MappedSuperclass
-@AllArgsConstructor
 @Data
+@AllArgsConstructor
 @EqualsAndHashCode
-public class RelationShip implements Serializable{
+public class Activity implements Serializable{
+	
 
 	private static final long serialVersionUID = 1L;
 
-	//source user
+	private LocalDateTime recordeDate;
+	
+	private boolean  deleted;
+	
 	@ManyToOne
-	private User sourceUser;
+	private Post post;
 	
-	//actingUser
 	@ManyToOne
-	private User actingUser;
-	
-	private LocalDateTime recordDate;
-	
-	private boolean deleted;
+	private User addedBy;
 	
 	
-	public RelationShip() {
-		this.recordDate = LocalDateTime.now();
+	public Activity() {
+		this.recordeDate = LocalDateTime.now();
 		this.deleted = Boolean.FALSE;
 	}
+
 
 }
