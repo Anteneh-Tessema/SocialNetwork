@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf1be03a-f7a6-46b0-aa61-d26a9749e9ad" name="Default Changelist" comment="Project skeleton with pom files">
+    <list default="true" id="50d0b68a-72d8-45ae-9998-57719d4a2cf5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Follower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Following.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/RelationShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_1_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialNetwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SocialNetwork.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +37,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1UqXUdYWw15nAVYx7OCf0OXP1BR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,8 +53,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.edu.mum.cs544.socialnetwork.socialnetwork.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\EA project\SocialNetwork\src\main\java\com\edu\mum\cs544\socialnetwork\socialnetwork\domain" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="SocialnetworkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -67,12 +97,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cf1be03a-f7a6-46b0-aa61-d26a9749e9ad" name="Default Changelist" comment="" />
+      <changelist id="50d0b68a-72d8-45ae-9998-57719d4a2cf5" name="Default Changelist" comment="" />
       <created>1576085116269</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576085116269</updated>
       <workItem from="1576085122547" duration="572000" />
+      <workItem from="1576095695886" duration="1925000" />
     </task>
     <task id="LOCAL-00001" summary="Project skeleton">
       <created>1576085256291</created>
@@ -108,38 +139,38 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="319" y="0" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1576085694260" />
-    <state width="1643" height="553" key="GridCell.Tab.0.bottom" timestamp="1576085631859">
+    <state width="1643" height="62" key="GridCell.Tab.0.bottom" timestamp="1576095620199">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="553" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1576085631859" />
-    <state width="1643" height="553" key="GridCell.Tab.0.center" timestamp="1576085631859">
+    <state width="1643" height="62" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
+    <state width="1643" height="62" key="GridCell.Tab.0.center" timestamp="1576095620199">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="553" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1576085631859" />
-    <state width="1643" height="553" key="GridCell.Tab.0.left" timestamp="1576085631858">
+    <state width="1643" height="62" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
+    <state width="1643" height="62" key="GridCell.Tab.0.left" timestamp="1576095620199">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="553" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1576085631858" />
-    <state width="1643" height="553" key="GridCell.Tab.0.right" timestamp="1576085631859">
+    <state width="1643" height="62" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
+    <state width="1643" height="62" key="GridCell.Tab.0.right" timestamp="1576095620199">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="553" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1576085631859" />
-    <state width="1643" height="553" key="GridCell.Tab.1.bottom" timestamp="1576085631860">
+    <state width="1643" height="62" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
+    <state width="1643" height="62" key="GridCell.Tab.1.bottom" timestamp="1576095620199">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="553" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1576085631860" />
-    <state width="1643" height="553" key="GridCell.Tab.1.center" timestamp="1576085631860">
+    <state width="1643" height="62" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
+    <state width="1643" height="62" key="GridCell.Tab.1.center" timestamp="1576095620199">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="553" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1576085631860" />
-    <state width="1643" height="553" key="GridCell.Tab.1.left" timestamp="1576085631860">
+    <state width="1643" height="62" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
+    <state width="1643" height="62" key="GridCell.Tab.1.left" timestamp="1576095620199">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="553" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1576085631860" />
-    <state width="1643" height="553" key="GridCell.Tab.1.right" timestamp="1576085631860">
+    <state width="1643" height="62" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
+    <state width="1643" height="62" key="GridCell.Tab.1.right" timestamp="1576095620199">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="553" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1576085631860" />
+    <state width="1643" height="62" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
     <state x="493" y="110" key="MultipleFileMergeDialog" timestamp="1576085725374">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
