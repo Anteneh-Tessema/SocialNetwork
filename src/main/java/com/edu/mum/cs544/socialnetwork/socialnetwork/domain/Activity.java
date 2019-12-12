@@ -34,6 +34,9 @@ public class Activity implements Serializable{
 		this.recordeDate = LocalDateTime.now();
 		this.deleted = Boolean.FALSE;
 	}
+	public boolean isDeleted() {
+		return deleted;
+	}
 
 
 }

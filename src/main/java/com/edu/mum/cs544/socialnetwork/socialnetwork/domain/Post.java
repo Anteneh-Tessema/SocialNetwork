@@ -43,5 +43,8 @@ public class Post implements Serializable{
 		this.recordedDate = LocalDateTime.now();
 		this.deleted = Boolean.FALSE;
 	}
+	public boolean isDeleted() {
+		return deleted;
+	}
 
-}
+	}

@@ -1,10 +1,17 @@
 package com.edu.mum.cs544.socialnetwork.socialnetwork.domain;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.util.UUID;
 
 @Entity
+@Data
+@AllArgsConstructor
+@EqualsAndHashCode
 public class PostLikes extends Activity{
 
 	private static final long serialVersionUID = 1L;
@@ -16,12 +23,5 @@ public class PostLikes extends Activity{
 		this.id = UUID.randomUUID().toString();
 	}
 
-	public String getId() {
-		return id;
-	}
-
-	public void setId(String id) {
-		this.id = id;
-	}
 
 }

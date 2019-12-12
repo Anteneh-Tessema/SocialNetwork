@@ -45,6 +45,8 @@ public class User implements Serializable{
 		this.deleted = Boolean.FALSE;
 		this.recordedDate = LocalDateTime.now();
 	}
-
+	public boolean isDeleted() {
+		return deleted;
+	}
 
 }

@@ -35,5 +35,9 @@ public class RelationShip implements Serializable{
 		this.recordDate = LocalDateTime.now();
 		this.deleted = Boolean.FALSE;
 	}
+	public boolean isDeleted() {
+		return deleted;
+	}
+
 
 }
