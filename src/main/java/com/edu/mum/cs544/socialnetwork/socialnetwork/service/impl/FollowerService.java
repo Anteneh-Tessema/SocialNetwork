@@ -1,10 +1,11 @@
 package com.edu.mum.cs544.socialnetwork.socialnetwork.service.impl;
 
-import com.mum.project.socialnetwork.socialnetwork.dao.FollowerDao;
-import com.mum.project.socialnetwork.socialnetwork.domain.Follower;
-import com.mum.project.socialnetwork.socialnetwork.domain.User;
-import com.mum.project.socialnetwork.socialnetwork.serviceinterface.IFollower;
-import com.mum.project.socialnetwork.socialnetwork.utility.Messages;
+
+import com.edu.mum.cs544.socialnetwork.socialnetwork.dao.FollowerDao;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.Follower;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.User;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.service.IFollower;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.utility.Messages;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +15,7 @@ import java.util.stream.Collectors;
 
 @Service
 @Transactional
-public class FollowerService implements IFollower{
+public class FollowerService implements IFollower {
 	
 	@Autowired
 	private FollowerDao followerDao;

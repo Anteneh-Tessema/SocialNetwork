@@ -1,10 +1,11 @@
 package com.edu.mum.cs544.socialnetwork.socialnetwork.service.impl;
 
-import com.mum.project.socialnetwork.socialnetwork.dao.TagDao;
-import com.mum.project.socialnetwork.socialnetwork.domain.Tag;
-import com.mum.project.socialnetwork.socialnetwork.serviceinterface.IPost;
-import com.mum.project.socialnetwork.socialnetwork.serviceinterface.ITag;
-import com.mum.project.socialnetwork.socialnetwork.utility.Messages;
+
+import com.edu.mum.cs544.socialnetwork.socialnetwork.dao.TagDao;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.Tag;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.service.IPost;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.service.ITag;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.utility.Messages;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,7 +19,7 @@ import java.util.stream.Collectors;
 
 @Service
 @Transactional
-public class TagService implements ITag{
+public class TagService implements ITag {
 	
 	@Autowired
 	private TagDao tagdao;

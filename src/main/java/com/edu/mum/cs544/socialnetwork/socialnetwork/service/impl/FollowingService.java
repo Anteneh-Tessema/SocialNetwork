@@ -1,11 +1,12 @@
 package com.edu.mum.cs544.socialnetwork.socialnetwork.service.impl;
 
-import com.mum.project.socialnetwork.socialnetwork.dao.FollowingDao;
-import com.mum.project.socialnetwork.socialnetwork.dao.UserDao;
-import com.mum.project.socialnetwork.socialnetwork.domain.Following;
-import com.mum.project.socialnetwork.socialnetwork.domain.User;
-import com.mum.project.socialnetwork.socialnetwork.serviceinterface.IFollowing;
-import com.mum.project.socialnetwork.socialnetwork.utility.Messages;
+
+import com.edu.mum.cs544.socialnetwork.socialnetwork.dao.FollowingDao;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.dao.UserDao;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.Following;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.User;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.service.IFollowing;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.utility.Messages;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +16,7 @@ import java.util.stream.Collectors;
 
 @Service
 @Transactional
-public class FollowingService implements IFollowing{
+public class FollowingService implements IFollowing {
 	
 	@Autowired
 	private FollowingDao followingDao;

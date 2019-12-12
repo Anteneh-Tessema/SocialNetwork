@@ -12,7 +12,7 @@ import java.util.UUID;
 @Entity
 @AllArgsConstructor
 @Data
-@EqualsAndHashCode
+@EqualsAndHashCode(callSuper = false)
 public class Share extends Activity{
 	
 	private static final long serialVersionUID = 1L;

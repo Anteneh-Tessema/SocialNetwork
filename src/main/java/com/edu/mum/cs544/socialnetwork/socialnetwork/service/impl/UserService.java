@@ -1,9 +1,9 @@
 package com.edu.mum.cs544.socialnetwork.socialnetwork.service.impl;
 
-import com.mum.project.socialnetwork.socialnetwork.dao.UserDao;
-import com.mum.project.socialnetwork.socialnetwork.domain.User;
-import com.mum.project.socialnetwork.socialnetwork.serviceinterface.IUser;
-import com.mum.project.socialnetwork.socialnetwork.utility.Messages;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.dao.UserDao;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.User;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.service.IUser;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.utility.Messages;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +12,7 @@ import javax.transaction.Transactional;
 
 @Service
 @Transactional
-public class UserService implements IUser{
+public class UserService implements IUser {
 	
 	@Autowired
 	private UserDao userDao;

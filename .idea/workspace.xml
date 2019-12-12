@@ -2,7 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50d0b68a-72d8-45ae-9998-57719d4a2cf5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/controller/Access.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/controller/ActionRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/SocialnetworkApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/SocialnetworkApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/CommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/CommentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/FollowerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/FollowerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/FollowingDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/FollowingDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/FriendDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/FriendDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/GenericDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/GenericDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/LikeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/LikeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/PostDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/PostDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/ShareDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/ShareDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/TagDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/TagDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Follower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Follower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Following.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Following.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Friend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Friend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/PostLikes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/PostLikes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Share.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Share.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/ICommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/ICommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/IFollower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/IFollower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/IFollowing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/IFollowing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/ILike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/ILike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/IPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/IPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/IShare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/IShare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/ITag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/ITag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/IUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/IUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/impl/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/impl/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/impl/FollowerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/impl/FollowerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/impl/FollowingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/impl/FollowingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/impl/LikeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/impl/LikeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/impl/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/impl/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/impl/ShareService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/impl/ShareService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/impl/TagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/impl/TagService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/service/impl/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/edu/mum/cs544/socialnetwork/socialnetwork/SocialnetworkApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/edu/mum/cs544/socialnetwork/socialnetwork/SocialnetworkApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +92,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/controller" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,8 +108,11 @@
       <recent name="com.edu.mum.cs544.socialnetwork.socialnetwork.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\EA project\SocialNetwork\src\main\resources" />
-      <recent name="E:\EA project\SocialNetwork\src\main\java\com\edu\mum\cs544\socialnetwork\socialnetwork\domain" />
+      <recent name="E:\EA project\SocialNetwork\src\main\java\com\edu\mum\cs544\socialnetwork\socialnetwork\controller" />
+      <recent name="E:\EA project\SocialNetwork\src\main\java\com\edu\mum\cs544\socialnetwork\socialnetwork\dao" />
+      <recent name="E:\EA project\SocialNetwork\src\main\java\com\edu\mum\cs544\socialnetwork\socialnetwork\service\impl" />
+      <recent name="E:\EA project\SocialNetwork\src\main\java\com\edu\mum\cs544\socialnetwork\socialnetwork\service" />
+      <recent name="E:\EA project\SocialNetwork\src\main\java\com\edu\mum\cs544\socialnetwork\socialnetwork\utility" />
     </key>
   </component>
   <component name="RunManager">
@@ -109,7 +149,7 @@
       <workItem from="1576085122547" duration="572000" />
       <workItem from="1576095695886" duration="4699000" />
       <workItem from="1576106894696" duration="2104000" />
-      <workItem from="1576115073088" duration="3716000" />
+      <workItem from="1576115073088" duration="5155000" />
     </task>
     <task id="LOCAL-00001" summary="Project skeleton">
       <created>1576085256291</created>
@@ -167,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576120156086</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="service class done">
+      <created>1576120654264</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576120654265</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,57 +228,62 @@
     <MESSAGE value="Last commit on domain models" />
     <MESSAGE value="Some front end is done" />
     <MESSAGE value="admin class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin class added" />
+    <MESSAGE value="service class done" />
+    <option name="LAST_COMMIT_MESSAGE" value="service class done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="347" y="37" key="#Notifications" timestamp="1576085740264">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="347" y="37" key="#Notifications/0.0.1707.920@0.0.1707.920" timestamp="1576085740264" />
-    <state x="319" y="0" key="CommitChangelistDialog2" timestamp="1576120593367">
+    <state x="616" y="104" key="#com.intellij.ide.util.MemberChooser" timestamp="1576121062397">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="319" y="0" key="CommitChangelistDialog2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576120593367" />
+    <state x="616" y="104" key="#com.intellij.ide.util.MemberChooser/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576121062397" />
+    <state x="319" y="0" key="CommitChangelistDialog2" timestamp="1576120652832">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="319" y="0" key="CommitChangelistDialog2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576120652832" />
     <state x="319" y="0" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1576097653025" />
-    <state width="1643" height="580" key="GridCell.Tab.0.bottom" timestamp="1576108812936">
+    <state width="1656" height="708" key="GridCell.Tab.0.bottom" timestamp="1576121809088">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="580" key="GridCell.Tab.0.bottom/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108812936" />
+    <state width="1656" height="708" key="GridCell.Tab.0.bottom/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576121809088" />
     <state width="1643" height="62" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
-    <state width="1643" height="580" key="GridCell.Tab.0.center" timestamp="1576108812936">
+    <state width="1656" height="708" key="GridCell.Tab.0.center" timestamp="1576121809087">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="580" key="GridCell.Tab.0.center/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108812936" />
+    <state width="1656" height="708" key="GridCell.Tab.0.center/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576121809087" />
     <state width="1643" height="62" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
-    <state width="1643" height="580" key="GridCell.Tab.0.left" timestamp="1576108812935">
+    <state width="1656" height="708" key="GridCell.Tab.0.left" timestamp="1576121809087">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="580" key="GridCell.Tab.0.left/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108812935" />
+    <state width="1656" height="708" key="GridCell.Tab.0.left/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576121809087" />
     <state width="1643" height="62" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
-    <state width="1643" height="580" key="GridCell.Tab.0.right" timestamp="1576108812936">
+    <state width="1656" height="708" key="GridCell.Tab.0.right" timestamp="1576121809088">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="580" key="GridCell.Tab.0.right/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108812936" />
+    <state width="1656" height="708" key="GridCell.Tab.0.right/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576121809088" />
     <state width="1643" height="62" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
-    <state width="1643" height="580" key="GridCell.Tab.1.bottom" timestamp="1576108812937">
+    <state width="1656" height="708" key="GridCell.Tab.1.bottom" timestamp="1576121809089">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="580" key="GridCell.Tab.1.bottom/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108812937" />
+    <state width="1656" height="708" key="GridCell.Tab.1.bottom/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576121809089" />
     <state width="1643" height="62" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
-    <state width="1643" height="580" key="GridCell.Tab.1.center" timestamp="1576108812936">
+    <state width="1656" height="708" key="GridCell.Tab.1.center" timestamp="1576121809088">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="580" key="GridCell.Tab.1.center/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108812936" />
+    <state width="1656" height="708" key="GridCell.Tab.1.center/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576121809088" />
     <state width="1643" height="62" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
-    <state width="1643" height="580" key="GridCell.Tab.1.left" timestamp="1576108812936">
+    <state width="1656" height="708" key="GridCell.Tab.1.left" timestamp="1576121809088">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="580" key="GridCell.Tab.1.left/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108812936" />
+    <state width="1656" height="708" key="GridCell.Tab.1.left/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576121809088" />
     <state width="1643" height="62" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
-    <state width="1643" height="580" key="GridCell.Tab.1.right" timestamp="1576108812936">
+    <state width="1656" height="708" key="GridCell.Tab.1.right" timestamp="1576121809089">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="580" key="GridCell.Tab.1.right/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108812936" />
+    <state width="1656" height="708" key="GridCell.Tab.1.right/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576121809089" />
     <state width="1643" height="62" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
     <state x="493" y="110" key="MultipleFileMergeDialog" timestamp="1576085725374">
       <screen x="0" y="0" width="1707" height="920" />

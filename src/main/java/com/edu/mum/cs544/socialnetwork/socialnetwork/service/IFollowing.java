@@ -1,7 +1,9 @@
 package com.edu.mum.cs544.socialnetwork.socialnetwork.service;
 
-import com.mum.project.socialnetwork.socialnetwork.domain.Following;
-import com.mum.project.socialnetwork.socialnetwork.domain.User;
+
+
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.Following;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.User;
 
 import java.util.List;
 

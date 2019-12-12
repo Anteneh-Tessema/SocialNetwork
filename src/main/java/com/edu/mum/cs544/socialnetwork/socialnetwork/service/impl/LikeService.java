@@ -1,11 +1,11 @@
 package com.edu.mum.cs544.socialnetwork.socialnetwork.service.impl;
 
-import com.mum.project.socialnetwork.socialnetwork.dao.LikeDao;
-import com.mum.project.socialnetwork.socialnetwork.domain.Post;
-import com.mum.project.socialnetwork.socialnetwork.domain.PostLikes;
-import com.mum.project.socialnetwork.socialnetwork.domain.User;
-import com.mum.project.socialnetwork.socialnetwork.serviceinterface.ILike;
-import com.mum.project.socialnetwork.socialnetwork.utility.Messages;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.dao.LikeDao;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.Post;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.PostLikes;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.User;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.service.ILike;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.utility.Messages;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -38,7 +38,7 @@ public class LikeService implements ILike {
 	}
 
 	@Override
-	public boolean findLike(User user,Post post) {
+	public boolean findLike(User user, Post post) {
 		return postLikes(post).stream().anyMatch(x -> x.getAddedBy().equals(user));
 	}
 

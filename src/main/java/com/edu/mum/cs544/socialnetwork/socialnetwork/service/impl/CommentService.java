@@ -1,10 +1,11 @@
 package com.edu.mum.cs544.socialnetwork.socialnetwork.service.impl;
 
-import com.mum.project.socialnetwork.socialnetwork.dao.CommentDao;
-import com.mum.project.socialnetwork.socialnetwork.domain.Comment;
-import com.mum.project.socialnetwork.socialnetwork.domain.Post;
-import com.mum.project.socialnetwork.socialnetwork.serviceinterface.ICommentService;
-import com.mum.project.socialnetwork.socialnetwork.utility.Messages;
+
+import com.edu.mum.cs544.socialnetwork.socialnetwork.dao.CommentDao;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.Comment;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.Post;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.service.ICommentService;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.utility.Messages;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +15,7 @@ import java.util.stream.Collectors;
 
 @Service
 @Transactional
-public class CommentService implements ICommentService{
+public class CommentService implements ICommentService {
 	
 	@Autowired
 	private CommentDao commentDao;

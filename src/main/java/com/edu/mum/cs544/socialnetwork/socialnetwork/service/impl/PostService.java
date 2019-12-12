@@ -1,13 +1,13 @@
 package com.edu.mum.cs544.socialnetwork.socialnetwork.service.impl;
 
-import com.mum.project.socialnetwork.socialnetwork.dao.PostDao;
-import com.mum.project.socialnetwork.socialnetwork.domain.Post;
-import com.mum.project.socialnetwork.socialnetwork.domain.Tag;
-import com.mum.project.socialnetwork.socialnetwork.domain.User;
-import com.mum.project.socialnetwork.socialnetwork.serviceinterface.IFollowing;
-import com.mum.project.socialnetwork.socialnetwork.serviceinterface.IPost;
-import com.mum.project.socialnetwork.socialnetwork.serviceinterface.IShare;
-import com.mum.project.socialnetwork.socialnetwork.utility.Messages;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.dao.PostDao;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.Post;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.Tag;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.User;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.service.IFollowing;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.service.IPost;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.service.IShare;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.utility.Messages;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

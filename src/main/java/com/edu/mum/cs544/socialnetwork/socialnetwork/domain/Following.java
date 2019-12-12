@@ -11,7 +11,7 @@ import java.util.UUID;
 @Entity
 @Data
 @AllArgsConstructor
-@EqualsAndHashCode
+@EqualsAndHashCode(callSuper = false)
 public class Following extends RelationShip{
 
 	private static final long serialVersionUID = 1L;

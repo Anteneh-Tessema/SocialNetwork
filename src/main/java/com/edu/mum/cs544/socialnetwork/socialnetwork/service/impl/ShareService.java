@@ -1,11 +1,12 @@
 package com.edu.mum.cs544.socialnetwork.socialnetwork.service.impl;
 
-import com.mum.project.socialnetwork.socialnetwork.dao.ShareDao;
-import com.mum.project.socialnetwork.socialnetwork.domain.Post;
-import com.mum.project.socialnetwork.socialnetwork.domain.Share;
-import com.mum.project.socialnetwork.socialnetwork.domain.User;
-import com.mum.project.socialnetwork.socialnetwork.serviceinterface.IShare;
-import com.mum.project.socialnetwork.socialnetwork.utility.Messages;
+
+import com.edu.mum.cs544.socialnetwork.socialnetwork.dao.ShareDao;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.Post;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.Share;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.User;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.service.IShare;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.utility.Messages;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +16,7 @@ import java.util.stream.Collectors;
 
 @Service
 @Transactional
-public class ShareService implements IShare{
+public class ShareService implements IShare {
 	
 	@Autowired
 	private ShareDao shareDao;

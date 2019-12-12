@@ -9,11 +9,11 @@
         <version>1.5.9.RELEASE</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.mum.project.socialnetwork</groupId>
+    <groupId>com.edu.mum.cs544.socialnetwork.socialnetwork</groupId>
     <artifactId>socialnetwork</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>socialnetwork</name>
-    <description>Second Project for this course in only one month period</description>
+    <description>EA project social network</description>
 
     <properties>
         <java.version>1.8</java.version>

@@ -11,7 +11,7 @@ import java.util.UUID;
 @Entity
 @Data
 @AllArgsConstructor
-@EqualsAndHashCode
+@EqualsAndHashCode(callSuper = false)
 public class Follower extends RelationShip{
 	
 	

@@ -1,6 +1,7 @@
 package com.edu.mum.cs544.socialnetwork.socialnetwork.dao;
 
-import com.mum.project.socialnetwork.socialnetwork.domain.Comment;
+
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.Comment;
 import org.springframework.stereotype.Repository;
 
 import java.util.Comparator;
