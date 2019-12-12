@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50d0b68a-72d8-45ae-9998-57719d4a2cf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/PostLikes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/PostLikes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/RelationShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/RelationShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Tag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/back-End/Layout/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/back-End/Layout/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/dao" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -117,7 +109,7 @@
       <workItem from="1576085122547" duration="572000" />
       <workItem from="1576095695886" duration="4699000" />
       <workItem from="1576106894696" duration="2104000" />
-      <workItem from="1576115073088" duration="3413000" />
+      <workItem from="1576115073088" duration="3716000" />
     </task>
     <task id="LOCAL-00001" summary="Project skeleton">
       <created>1576085256291</created>
@@ -168,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576109005954</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="admin class added">
+      <created>1576120156086</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576120156086</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,17 +180,18 @@
     <MESSAGE value="another domain model added" />
     <MESSAGE value="Last commit on domain models" />
     <MESSAGE value="Some front end is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some front end is done" />
+    <MESSAGE value="admin class added" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin class added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="347" y="37" key="#Notifications" timestamp="1576085740264">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="347" y="37" key="#Notifications/0.0.1707.920@0.0.1707.920" timestamp="1576085740264" />
-    <state x="319" y="0" key="CommitChangelistDialog2" timestamp="1576109003450">
+    <state x="319" y="0" key="CommitChangelistDialog2" timestamp="1576120593367">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="319" y="0" key="CommitChangelistDialog2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576109003450" />
+    <state x="319" y="0" key="CommitChangelistDialog2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576120593367" />
     <state x="319" y="0" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1576097653025" />
     <state width="1643" height="580" key="GridCell.Tab.0.bottom" timestamp="1576108812936">
       <screen x="0" y="0" width="1707" height="920" />
@@ -237,10 +237,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="493" y="110" key="MultipleFileMergeDialog/0.0.1707.920@0.0.1707.920" timestamp="1576085725374" />
-    <state x="347" y="130" key="Vcs.Push.Dialog.v2" timestamp="1576108634479">
+    <state x="347" y="130" key="Vcs.Push.Dialog.v2" timestamp="1576120163447">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="347" y="130" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108634479" />
+    <state x="347" y="130" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576120163447" />
     <state x="347" y="130" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1576097678901" />
     <state x="552" y="110" key="git4idea.branch.GitSmartOperationDialog" timestamp="1576085706750">
       <screen x="0" y="0" width="1707" height="920" />
