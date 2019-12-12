@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from followtechnique.com/themes/bird_v1/theme/page_starter.htm by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 13 Jul 2016 20:28:57 GMT -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SURVEY MIS</title>
+
+<div data-th-replace="back-End/Layout/CSS :: myCss"></div>
+
+<!-- /global stylesheets -->
+
+<!-- Core JS files -->
+<style>
+</style>
+
+
+
+</head>
+
+<body>
+
+	<div data-th-replace="back-End/Layout/header :: myHeader"></div>
+	<div class="page-container" style="min-height: 700px">
+		<div class="page-content">
+			<div data-th-replace="back-End/Layout/sidebar :: mySidebar"></div>
+			<!--  <div data-th-replace="back-End/Layout/content :: myContent">-->
+			<div class="content-wrapper" data-th-fragment="myContent">
+
+				<!-- Page header -->
+				<div class="page-header">
+					<div class="page-header-content">
+
+						<ul class="breadcrumb">
+							<li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+							<li><a href="survey">Survey</a></li>
+							<li class="active">Surveys</li>
+						</ul>
+
+					</div>
+				</div>
+				<!-- /page header -->
+
+
+				<!-- Content area -->
+
+				<div class="content">
+
+					<!-- <h4>
+						Meeting Details<span style="margin-left: 5px;"><i
+							class=" fa fa-info-circle"></i></span>
+					</h4> -->
+
+					<div class="row" style="margin-top: 5px;"></div>
+					<div class="panel panel-flat  border-top-primary"  style="width:80%;margin:auto;">
+						<div class="panel-heading pt-20 pl-20">
+							<span class="panel-title" style="font-size: 20px;">SUBMISSION SUCCESSFULL</span>
+							
+							<hr style="border: 1px solid black; background-color: black;" />
+
+						</div>
+
+						<div class="panel-body" style="font-size:150%;">
+							<div class="alert alert-success no-border">
+								
+								<span class="text-semibold">Well done!</span> You successfully submitted your survey,thanks for your participation  in this survey.
+							</div>
+							<a href="survey" class="btn btn-default text-bold"><i class="fa fa-arrow-left"></i>Go Back</a> 
+						</div>
+						
+						<div class="panel-footer"></div>
+
+
+
+
+
+
+					</div>
+					<div id="newSurvey" class="hidden">
+
+						<div class="panel panel-flat">
+							<div class="panel-heading pt-20 pl-20">
+								<h3 class="panel-title">
+									<span class="text-semibold">Create New Survey</span>
+								</h3>
+								<br />
+								<hr style="border: 1px solid #000; margin: 10px 0 5px;" />
+
+							</div>
+							<form id="new_survey" method="POST">
+								<div class="panel-body" style="margin-top: 1%;">
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="col-md-12">
+												<div class="form-group">
+													<label for="name" class="control-label text-semibold">
+														Survey Name <span class="text-danger">*</span>
+													</label> <input type="text" name="name"
+														class="form-control input-roundless" id="surveyName"
+														required="required" />
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<label for="description"
+														class="control-label text-semibold"> Survey
+														Description <span class="required">*</span>
+													</label>
+													<textarea rows="6" id="description" name="description"
+														class="form-control input-roundless"></textarea>
+												</div>
+											</div>
+
+											<div class="col-md-6">
+												<div class="form-group">
+													<label for="eventDate" class="control-label text-semibold">
+														Survey Start Date <span class="text-danger">*</span>
+													</label> <input type="date" name="openDate"
+														class="form-control input-roundless" id="openDate"
+														required="required" />
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form-group">
+													<label for="eventDate" class="control-label text-semibold">
+														Survey End Date <span class="text-danger">*</span>
+													</label> <input type="date" name="endDate"
+														class="form-control input-roundless" id="endDate"
+														required="required" />
+												</div>
+											</div>
+
+
+
+										</div>
+
+									</div>
+								</div>
+								<div class="panel-footer">
+									<div class="pull-right" style="margin: 10px;">
+										<button class="btn btn-default"
+											onclick="showAndHide('#newSurvey','#surveyList')">
+											<i class="fa fa-ban"></i><span>Cancel</span>
+										</button>
+										<button class="btn btn-primary" type="submit">
+											<i class="fa fa-save"></i><span>Save</span>
+										</button>
+									</div>
+								</div>
+
+							</form>
+						</div>
+					</div>
+
+
+					<div class="row">
+						<div data-th-replace="back-End/Layout/footer :: myFooter"></div>
+					</div>
+					<div data-th-replace="/back-End/Layout/custom :: myScript"></div>
+				</div>
+
+			</div>
+		</div>
+</body>
+</html>

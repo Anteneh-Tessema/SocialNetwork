@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from followtechnique.com/themes/bird_v1/theme/page_starter.htm by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 13 Jul 2016 20:28:57 GMT -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SOCIAL NETWORK MIS</title>
+
+<div data-th-replace="back-End/Layout/CSS :: myCss"></div>
+
+<!-- /global stylesheets -->
+
+<!-- Core JS files -->
+
+
+
+</head>
+
+<body>
+
+	<div data-th-replace="back-End/Layout/header :: myHeader"></div>
+	<div class="page-container" style="min-height: 700px">
+		<div class="page-content">
+			<!--  <div data-th-replace="back-End/Layout/content :: myContent">-->
+			<div class="content-wrapper" data-th-fragment="myContent">
+
+				<!-- Page header -->
+				<div class="page-header">
+					
+				</div>
+				<!-- /page header -->
+
+
+				<!-- Content area -->
+
+				<div class="content">
+
+					<!-- <h4>
+						Meeting Details<span style="margin-left: 5px;"><i
+							class=" fa fa-info-circle"></i></span>
+					</h4> -->
+
+					<div class="row" style="margin-top: 5px;"></div>
+					<div class="col-md-3 col-md-4">
+					<div class="row" style="position:fixed;">
+						<div class="thumbnail" style="width:115%;">
+							<div class="thumb thumb-rounded thumb-slide">
+								<img src="assets/images/users/user1.png" alt="">
+							</div>
+							<div class="caption text-center">
+								<h4 class="text-semibold no-margin">
+									<span th:text="${session.user.firstName}"></span> <small
+										class="display-block"><span
+										th:text="${session.user.emailAddress}"></span></small>
+								</h4>
+
+							</div>
+						</div>
+						
+						<div class="panel panel-flat" style="width:115%;">
+							<div class="list-group list-group-borderless">
+								<a href="home" class="list-group-item"><i
+									class="icon-home"></i> Home</a> <a href="myfollowers"
+									class="list-group-item"><i class="icon-users"></i>
+									Followers <span class="badge bg-danger pull-right"
+									th:text="${followers}"></span></a> <a href="myfollowings"
+									class="list-group-item"><i class="icon-users"></i>
+									Following<span class="badge bg-danger pull-right"
+									th:text="${followings}"></span></a>
+								<div class="list-group-divider"></div>
+								<a href="user_profile.htm#" class="list-group-item"><i
+									class="icon-calendar3"></i> My Posts <span
+									class="badge bg-teal-400 pull-right">20</span></a> <a
+									href="user_profile.htm#" class="list-group-item"><i
+									class="icon-cog3"></i> Account settings</a>
+							</div>
+						</div>
+						</div>
+
+
+					</div>
+					<div class="col-md-6 col-sm-8">
+					
+						<div class="panel panel-flat" style="margin-top:1%;">
+					<div class="panel-heading">
+						<h4 class="panel-title"><i class="fa fa-user position-left"></i><span class="text-semibold" th:text="${'About : '+user.firstName}"></span></h4>
+					</a>
+					</div>
+					<div class="panel-body">
+						<table class="table table-borderless table-striped">
+						<tbody>
+						<tr>
+						<td style="width: 20%;" class="text-bold"><strong>Names</strong></td>
+						<td><span class="text-semibold" th:text="${user.firstName}"></span></td>
+						</tr>
+						<tr>
+						<td class="text-bold"><strong>Contact</strong></td>
+						<td><a href="javascript:void(0)"><span class="text-semibold" th:text="${user.emailAddress}"></span></a></td>
+						</tr>
+						<tr>
+						<td class="text-bold"><strong>Gender</strong></td>
+						<td><span th:text="${user.gender}" class="text-semibold"></span></td>
+						</tr>
+						<tr>
+						<td class="text-bold"><strong>Date Of Birth</strong></td>
+						<td class="text-semibold">11/07/2019</td>
+						</tr>
+						<tr>
+						<td class="text-bold"><strong>Joined  on </strong></td>
+						<td>
+						   <span class="text-semibold">11/07/2109</span>
+						</td>
+						</tr>
+						</tbody>
+						</table>
+					</div>
+				</div>
+
+						<div class="panel panel-flat" th:if="${posts.size() > 0}"
+							th:each="post:${posts}">
+							
+							<div class="panel-body">
+								<div class="media">
+									<div class="media-left">
+										<a href="user_profile.htm#"><img
+											src="assets/images/users/user20.png"
+											class="img-circle img-50" alt=""></a>
+									</div>
+
+									<div class="media-body" th:if="${post.sharedBy == null}">
+										<h6 class="media-heading">
+											<a style="font-size: 15px;" href="user_profile.htm#"
+												th:text="${post.user.firstName+' Posted'}" class="text-bold"></a>
+											<span class="media-annotation dotted">2 hours ago</span>
+										</h6>
+										<span th:text="${post.description}" style="font-size: 15px;"></span>
+									</div>
+									<div class="media-body" th:if="${post.sharedBy != null}">
+										<h6 class="media-heading">
+											<a style="font-size: 15px;" href="user_profile.htm#"
+												th:text="${post.sharedBy.firstName+' Shared Post'}"
+												class="text-bold"></a> <span class="media-annotation dotted">2
+												hours ago</span>
+
+										</h6>
+
+										<span>
+										
+											<div class="media" style="border:1px solid #e5e5e5;padding:10px;border-radius:1%;margin-top:3%;">
+												<div class="media-left">
+													<a href="user_profile.htm#"><img
+														src="assets/images/users/user20.png"
+														class="img-circle img-50" alt=""></a>
+												</div>
+												<div class="media-body">
+													<h6 class="media-heading">
+														<a style="font-size: 15px;" href="user_profile.htm#"
+															th:text="${post.user.firstName}" class="text-bold"></a> <span
+															class="media-annotation dotted">2 hours ago</span>
+													</h6>
+													<span th:text="${post.description}"
+														style="font-size: 15px;"></span>
+												</div>
+											</div>
+										</span>
+									</div>
+								</div>
+								<br /> <a href="#" th:id="${post.id}" class="postComment"><i
+									class="fa fa-comments"></i><span
+									th:text="${@commentservice.postComments(post).size()}"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+									hre="#" data-toggle="modal"
+									th:data-target="${'#postLikes_'+post.id}"><i
+									class="fa fa-thumbs-up"></i><span
+									th:text="${@likeService.postLikes(post).size()}"></span></a>
+								<div th:id="${'postLikes_'+post.id}" class="modal fade">
+									<div class="modal-dialog modal-md">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">
+													<b>Post liked by</b>
+												</h4>
+
+											</div>
+
+											<div class="modal-body">
+												<ul class="media-list media-list-linked pb-5">
+													<li class="media"><a href="#" class="media-link"
+														th:each="like :${@likeService.postLikes(post)}"
+														style="border-bottom: 1px solid #e5e5e5;">
+															<div class="media-left">
+																<img src="assets/images/users/user2.png"
+																	class="img-circle" alt="">
+															</div>
+															<div class="media-body">
+																<span class="media-heading text-bold"
+																	th:text="${like.addedBy.firstName}"></span> <span
+																	class="media-annotation text-semibold"
+																	th:text="${like.addedBy.gender}"></span>
+
+															</div>
+
+													</a></li>
+												</ul>
+											</div>
+
+
+
+										</div>
+
+									</div>
+								</div>
+
+
+
+
+								&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" data-toggle="modal"
+									th:data-target="${'#postShares_'+post.id}"><i
+									class="fa fa-reply"></i><span
+									th:text="${@shareService.postShares(post).size()}"></span></a>
+
+								<div th:id="${'postShares_'+post.id}" class="modal fade">
+									<div class="modal-dialog modal-md">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">
+													<b>Post shared by</b>
+												</h4>
+
+											</div>
+
+											<div class="modal-body">
+												<ul class="media-list media-list-linked pb-5">
+													<li class="media"><a href="#" class="media-link"
+														th:each="share :${@shareService.postShares(post)}"
+														style="border-bottom: 1px solid #e5e5e5;">
+															<div class="media-left">
+																<img src="assets/images/users/user2.png"
+																	class="img-circle" alt="">
+															</div>
+															<div class="media-body">
+																<span class="media-heading text-bold"
+																	th:text="${share.sharedBy.firstName}"></span> <span
+																	class="media-annotation text-semibold"
+																	th:text="${share.sharedBy.gender}"></span>
+
+															</div>
+
+													</a></li>
+												</ul>
+											</div>
+
+
+
+										</div>
+
+									</div>
+								</div>
+
+
+								<div class="list-group-divider"></div>
+								<div th:id="${'actions_'+post.id}">
+									<span class="pull-right">
+										<button th:id="${post.id}"
+											class="label-rounded label-default postComment"
+											style="margin-top: 5px; margin-left: 5px; color: #fff;">
+											<i class="fa fa-comment"></i>comment
+										</button>
+										<button th:id="${post.id}"
+											class="label-rounded label-default likePost"
+											style="margin-top: 5px; margin-left: 5px; color: #fff;">
+											<i class="fa fa-thumbs-up"></i>like
+										</button>
+										<button th:id="${post.id}" type="submit"
+											class="label-rounded label-default sharePost"
+											style="margin-top: 5px; margin-left: 5px; color: #fff;">
+											<i class="fa fa-reply"></i>share
+										</button>
+									</span>
+								</div>
+
+								<div class="media hidden" style="margin-left: 5%;"
+									th:id="${'results_'+post.id}">
+									<div class="media-body">
+										<div class="media"
+											th:each="comment :${@commentservice.postComments(post)}">
+											<div class="media-left">
+												<a href="user_profile.htm#"><img
+													src="assets/images/users/user19.png"
+													class="img-circle img-50" alt=""></a>
+											</div>
+											<div class="media-body">
+												<h6 class="media-heading">
+													<a href="user_profile.htm#"
+														th:text="${comment.addedBy.firstName}"
+														class="text-semibold"></a> <span
+														class="media-annotation dotted">1 hour ago</span>
+												</h6>
+												<span th:text="${comment.content}"></span>
+
+											</div>
+											<hr />
+
+
+										</div>
+										<div class="hidden">
+											<span style="color: blue; text-decoration: underline"
+												class="pull-right"><a href="#">view more...</a></span>
+										</div>
+
+
+										<div class="media">
+											<div class="media-left">
+												<a href="user_profile.htm#"><img
+													src="assets/images/users/user20.png"
+													class="img-circle img-50" alt=""></a>
+											</div>
+											<div class="media-body">
+												<form method="POST" class="add_comment" th:id="${post.id}">
+													<textarea th:id="${'comment_'+post.id}"
+														class="form-control content-group" rows="2" cols="1"
+														placeholder="Enter your message..."></textarea>
+
+													<div class="row mt-20">
+														<div class="col-xs-12 text-right">
+															<button type="submit"
+																class="btn btn-danger btn-labeled btn-labeled-right">
+																Post comments <b><i class="fa fa-check"></i></b>
+															</button>
+														</div>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-flat  border-top-primary"
+							th:if="${posts.size() == 0}">
+
+
+							<div class="panel-body" style="font-size: 150%;">
+								<div class="alert alert-success no-border">
+
+									<span class="text-semibold">NO POST ON YOUR WALL!</span> please
+									share your post or look for real active users hhhhhhhhh!!!.
+								</div>
+
+							</div>
+
+							<div class="panel-footer"></div>
+
+
+
+
+
+
+						</div>
+
+					</div>
+					<div class="col-md-3 col-sm-3" >
+						<div class="panel panel-flat" style="position:fixed;width:24%;">
+							<div class="panel-heading">
+								<h4 class="text-bold">
+									<i class="fa fa-users"></i><span style="margin-left: 3%;">People
+										you may know</span>
+								</h4>
+							</div>
+							<hr
+								style="border: 1px solid #e5e5e5; background-color: #e5e5e5; width: 95%; margin: auto;" />
+
+							<ul class="media-list media-list-linked pb-5"
+								th:if="${suggestions.size() > 0}">
+
+								<li class="media"><a 
+									class="media-link" th:each="user :${suggestions}"
+									style="border-bottom: 1px solid #e5e5e5;" th:href="${'userWall_'+user.id}">
+										<div class="media-left">
+											<img src="assets/images/users/user2.png" class="img-circle"
+												alt="">
+										</div>
+										<div class="media-body">
+											<span class="media-heading text-semibold"
+												th:text="${user.firstName}"></span> <span
+												class="media-annotation" th:text="${user.gender}"></span> <span
+												class="media-annotation label-rounded label-default pull-right text-semibold followUser"
+												style="color: #FFF;" th:id="${user.emailAddress}"><i
+												class="fa fa-plus-circle"></i>follow</span>
+										</div>
+
+								</a></li>
+
+
+							</ul>
+							<ul class="media-list media-list-linked pb-5"
+								th:if="${suggestions.size() == 0}">
+								<h5 class="text-semibold" style="margin-left: 5%;">
+									No Suggestion found
+									</h4>
+							</ul>
+
+						</div>
+					</div>
+
+
+					<div class="row">
+						<div data-th-replace="back-End/Layout/footer :: myFooter"
+							style="margin-top: 20%;"></div>
+					</div>
+					<div data-th-replace="/back-End/Layout/custom :: myScript"></div>
+
+
+				</div>
+
+			</div>
+		</div>
+</body>
+</html>

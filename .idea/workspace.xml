@@ -2,11 +2,241 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50d0b68a-72d8-45ae-9998-57719d4a2cf5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/DataTablesLibrary/buttons.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/DataTablesLibrary/buttons.flash.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/DataTablesLibrary/buttons.html5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/DataTablesLibrary/buttons.print.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/DataTablesLibrary/dataTables.buttons.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/DataTablesLibrary/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/DataTablesLibrary/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/DataTablesLibrary/jszip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/DataTablesLibrary/pdfmake.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/DataTablesLibrary/vfs_fonts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/EventLogo/Clarity_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/EventLogo/EVT-000001-Eca_Logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/EventLogo/Hexakomb_LO_FF_WHITE_website_White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/EventLogo/Registration_clarity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/EventLogo/clarity_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/EventLogo/undp_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/ckeditor/ckeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/font-awesome/fonts/fontawesome-webfont914c.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/font-awesome/fonts/fontawesome-webfont914c.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/font-awesome/fonts/fontawesome-webfont914c.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/font-awesome/fonts/fontawesome-webfont914c.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/font-awesome/fonts/fontawesome-webfont914c.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/font-awesome/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/glyphicons/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/glyphicons/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/glyphicons/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/glyphicons/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/glyphicons/glyphicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/icomoon/icomoon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/icomoon/icomoond41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/icomoon/icomoone627.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/icomoon/icomoone627.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/icomoon/icomoone627.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/icomoon/icomoone627.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/Icon_plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/Icon_plus1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/Nirda-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/clock/clockface.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/covers/cover1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/covers/cover2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/covers/cover3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/covers/weather.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/error/403.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/error/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/error/405.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/error/500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/error/503.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/error/offline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/fancybox/fancybox_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/fancybox/fancybox_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/hexaLogo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/logo_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/media/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/media/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/media/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/media/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/media/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/media/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/media/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/media/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/media/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/media/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/media/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/media/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/users/user_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/tinymce/tinymce.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/weather/weather-icons-wind.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/weather/weather-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/weather/weathericons-regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/weather/weathericons-regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/weather/weathericons-regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/weather/weathericons-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/weather/weathericons-regular-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/weather/weathericons-regular-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-extended.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/color-system.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fancybox_loading_2x.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fancybox_sprite_2x.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/icons/glyphicons/glyphicons-halflings-regular-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/icons/glyphicons/glyphicons-halflings-regular-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/icons/glyphicons/glyphicons-halflings-regular-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/icons/glyphicons/glyphicons-halflings-regular-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/icons/glyphicons/glyphicons-halflings-regular.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/icons/glyphicons/glyphicons-halflings-regulard41d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Bold-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Bold-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Bold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Bold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Bold-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-ExtraBold-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-ExtraBold-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-ExtraBold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-ExtraBold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-ExtraBold-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Light-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Light-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Light-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Light-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Regular-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Semibold-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Semibold-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Semibold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Semibold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/OpenSans-Semibold-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/Alert/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/Alert/jquery.bsAlerts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/C3/c3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/C3/c3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/C3/d3.v4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/anotherCustom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/charts/c3/c3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/charts/c3/c3_advanced.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/charts/c3/c3_axis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/charts/c3/c3_bars_pies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/charts/c3/c3_grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/charts/c3/c3_lines_areas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/charts/d3/d3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/charts/google/bars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/charts/google/bubbles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/charts/google/jsapi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/charts/google/lines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/charts/google/pies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/core.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/custom1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/datatables/datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/datatables/extensions/autofill.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/datatables/extensions/buttons.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/datatables/extensions/col_reorder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/datatables/extensions/fixed_columns.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/datatables/extensions/fixed_header.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/datatables/extensions/key_table.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/datatables/extensions/responsive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/datatables/extensions/row_reorder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/datatables/extensions/select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/daterangepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/fancybox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/footable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forms/datepaginator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forms/datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forms/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forms/form.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forms/form_wizard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forms/nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forms/pickadate/legacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forms/pickadate/picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forms/pickadate/picker.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forms/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forms/switch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forms/switchery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forms/tagsinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forms/tokenfield.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forms/typeahead.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forms/uniform.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/interactions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jQuery-Plugin-For-Number-Input-Formatting-Mask-Number/jquery.masknumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jQuery.maxlength.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.masknumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery_ui/interactions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery_ui/touch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquerysession.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/maps/google/basic/basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/maps/google/basic/geolocation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/maps/google/layers/traffic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/maps/google/layers/transit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/maps/google/markers/simple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/maps/google/markers/symbols_custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/maps/jvectormap/jvectormap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/maps/jvectormap/map_files/world.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pnotify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/sweet_alert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/uploaders/dropzone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/uploaders/fileinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/back-End/Layout/CSS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/back-End/Layout/content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/back-End/Layout/custom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/back-End/Layout/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/back-End/Layout/form_select2.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/back-End/Layout/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/back-End/Layout/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/back-End/Link/CSS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/back-End/Link/Script.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/back-End/client/account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/back-End/client/followers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/back-End/client/followings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/back-End/client/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/back-End/client/resultPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/back-End/client/surveyQuestions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/back-End/client/tagPosts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/back-End/client/wall.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Tag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +282,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,6 +298,7 @@
       <recent name="com.edu.mum.cs544.socialnetwork.socialnetwork.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\EA project\SocialNetwork\src\main\resources" />
       <recent name="E:\EA project\SocialNetwork\src\main\java\com\edu\mum\cs544\socialnetwork\socialnetwork\domain" />
     </key>
   </component>
@@ -104,7 +335,7 @@
       <updated>1576085116269</updated>
       <workItem from="1576085122547" duration="572000" />
       <workItem from="1576095695886" duration="4699000" />
-      <workItem from="1576106894696" duration="1680000" />
+      <workItem from="1576106894696" duration="1905000" />
     </task>
     <task id="LOCAL-00001" summary="Project skeleton">
       <created>1576085256291</created>
@@ -141,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576108401088</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Last commit on domain models">
+      <created>1576108622081</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576108622081</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,66 +390,67 @@
     <MESSAGE value="Project skeleton with pom files" />
     <MESSAGE value="two domain classes added" />
     <MESSAGE value="another domain model added" />
-    <option name="LAST_COMMIT_MESSAGE" value="another domain model added" />
+    <MESSAGE value="Last commit on domain models" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last commit on domain models" />
   </component>
   <component name="WindowStateProjectService">
     <state x="347" y="37" key="#Notifications" timestamp="1576085740264">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="347" y="37" key="#Notifications/0.0.1707.920@0.0.1707.920" timestamp="1576085740264" />
-    <state x="319" y="0" key="CommitChangelistDialog2" timestamp="1576108400550">
+    <state x="319" y="0" key="CommitChangelistDialog2" timestamp="1576108621521">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="319" y="0" key="CommitChangelistDialog2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108400550" />
+    <state x="319" y="0" key="CommitChangelistDialog2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108621521" />
     <state x="319" y="0" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1576097653025" />
-    <state width="1643" height="3" key="GridCell.Tab.0.bottom" timestamp="1576108580166">
+    <state width="1643" height="580" key="GridCell.Tab.0.bottom" timestamp="1576108812936">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="3" key="GridCell.Tab.0.bottom/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108580166" />
+    <state width="1643" height="580" key="GridCell.Tab.0.bottom/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108812936" />
     <state width="1643" height="62" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
-    <state width="1643" height="3" key="GridCell.Tab.0.center" timestamp="1576108580166">
+    <state width="1643" height="580" key="GridCell.Tab.0.center" timestamp="1576108812936">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="3" key="GridCell.Tab.0.center/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108580166" />
+    <state width="1643" height="580" key="GridCell.Tab.0.center/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108812936" />
     <state width="1643" height="62" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
-    <state width="1643" height="3" key="GridCell.Tab.0.left" timestamp="1576108580166">
+    <state width="1643" height="580" key="GridCell.Tab.0.left" timestamp="1576108812935">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="3" key="GridCell.Tab.0.left/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108580166" />
+    <state width="1643" height="580" key="GridCell.Tab.0.left/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108812935" />
     <state width="1643" height="62" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
-    <state width="1643" height="3" key="GridCell.Tab.0.right" timestamp="1576108580166">
+    <state width="1643" height="580" key="GridCell.Tab.0.right" timestamp="1576108812936">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="3" key="GridCell.Tab.0.right/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108580166" />
+    <state width="1643" height="580" key="GridCell.Tab.0.right/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108812936" />
     <state width="1643" height="62" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
-    <state width="1643" height="3" key="GridCell.Tab.1.bottom" timestamp="1576108580166">
+    <state width="1643" height="580" key="GridCell.Tab.1.bottom" timestamp="1576108812937">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="3" key="GridCell.Tab.1.bottom/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108580166" />
+    <state width="1643" height="580" key="GridCell.Tab.1.bottom/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108812937" />
     <state width="1643" height="62" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
-    <state width="1643" height="3" key="GridCell.Tab.1.center" timestamp="1576108580166">
+    <state width="1643" height="580" key="GridCell.Tab.1.center" timestamp="1576108812936">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="3" key="GridCell.Tab.1.center/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108580166" />
+    <state width="1643" height="580" key="GridCell.Tab.1.center/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108812936" />
     <state width="1643" height="62" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
-    <state width="1643" height="3" key="GridCell.Tab.1.left" timestamp="1576108580166">
+    <state width="1643" height="580" key="GridCell.Tab.1.left" timestamp="1576108812936">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="3" key="GridCell.Tab.1.left/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108580166" />
+    <state width="1643" height="580" key="GridCell.Tab.1.left/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108812936" />
     <state width="1643" height="62" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
-    <state width="1643" height="3" key="GridCell.Tab.1.right" timestamp="1576108580166">
+    <state width="1643" height="580" key="GridCell.Tab.1.right" timestamp="1576108812936">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1643" height="3" key="GridCell.Tab.1.right/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108580166" />
+    <state width="1643" height="580" key="GridCell.Tab.1.right/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108812936" />
     <state width="1643" height="62" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1576095620199" />
     <state x="493" y="110" key="MultipleFileMergeDialog" timestamp="1576085725374">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="493" y="110" key="MultipleFileMergeDialog/0.0.1707.920@0.0.1707.920" timestamp="1576085725374" />
-    <state x="347" y="130" key="Vcs.Push.Dialog.v2" timestamp="1576108415514">
+    <state x="347" y="130" key="Vcs.Push.Dialog.v2" timestamp="1576108634479">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="347" y="130" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108415514" />
+    <state x="347" y="130" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576108634479" />
     <state x="347" y="130" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1576097678901" />
     <state x="552" y="110" key="git4idea.branch.GitSmartOperationDialog" timestamp="1576085706750">
       <screen x="0" y="0" width="1707" height="920" />
