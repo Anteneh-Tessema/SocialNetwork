@@ -9,6 +9,7 @@ import com.edu.mum.cs544.socialnetwork.socialnetwork.utility.Messages;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -35,7 +36,11 @@ public class Access {
 	@Autowired
 	private ITag tagService;
 
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+	@GetMapping(value = {"/","/HomePage"})
+	public String homePage(){
+		return "welcomepage";
+	}
+	@RequestMapping(value = "/signin", method = RequestMethod.GET)
 	public String landingPage() {
 		return "login";
 	}
