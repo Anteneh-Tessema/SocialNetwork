@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 
 <!-- Mirrored from followtechnique.com/themes/bird_v1/theme/page_starter.htm by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 13 Jul 2016 20:28:57 GMT -->
 <head>
@@ -134,7 +134,7 @@
 										<h6 class="media-heading">
 											<a style="font-size: 15px;" href="#"
 												th:text="${post.user.firstName+' Posted'}" class="text-bold" ></a>
-											<span class="media-annotation dotted">2 hours ago</span>
+											<span class="media-annotation dotted">1 minute ago</span>
 										</h6>
 										<span th:text="${post.description}" style="font-size: 15px;"></span>
 									</div>
@@ -299,7 +299,7 @@
 													<a href="user_profile.htm#"
 														th:text="${comment.addedBy.firstName}"
 														class="text-semibold"></a> <span
-														class="media-annotation dotted">1 hour ago</span>
+														class="media-annotation dotted">1 minute ago</span>
 												</h6>
 												<span th:text="${comment.content}"></span>
 
@@ -349,7 +349,7 @@
 								<div class="alert alert-success no-border">
 
 									<span class="text-semibold">NO POST ON YOUR WALL!</span> please
-									share your post or look for real active users hhhhhhhhh!!!.
+									What is on your mind.
 								</div>
 
 							</div>
