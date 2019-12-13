@@ -9,7 +9,7 @@
         <module name="SocialNetwork" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="SocialNetwork" target="1.8" />
     </bytecodeTargetLevel>
   </component>

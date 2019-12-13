@@ -4,11 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.Set;
 import java.util.UUID;
 
 @Entity
@@ -39,6 +39,10 @@ public class User implements Serializable{
 	private LocalDateTime recordedDate;
 	
 	private String password;
+
+	@ManyToMany(cascade = CascadeType.ALL,fetch= FetchType.EAGER)
+	@JoinTable(name="user_role",joinColumns = {@JoinColumn(name = "user_id")},inverseJoinColumns = {@JoinColumn(name = "role_id")})
+	private Set<Role> role;
 
 	public User() {
 		id = UUID.randomUUID().toString();
