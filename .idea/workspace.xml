@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="50d0b68a-72d8-45ae-9998-57719d4a2cf5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,7 @@
       <workItem from="1576115073088" duration="7251000" />
       <workItem from="1576167388486" duration="1998000" />
       <workItem from="1576175464370" duration="84000" />
-      <workItem from="1576187889209" duration="678000" />
+      <workItem from="1576187889209" duration="2191000" />
     </task>
     <task id="LOCAL-00001" summary="Project skeleton">
       <created>1576085256291</created>
@@ -204,7 +203,8 @@
     <MESSAGE value="admin class added" />
     <MESSAGE value="service class done" />
     <MESSAGE value="login done" />
-    <option name="LAST_COMMIT_MESSAGE" value="login done" />
+    <MESSAGE value="commit some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit some changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="347" y="37" key="#Notifications" timestamp="1576085740264">
@@ -215,11 +215,11 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="616" y="104" key="#com.intellij.ide.util.MemberChooser/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576121062397" />
-    <state x="319" y="0" key="CommitChangelistDialog2" timestamp="1576121941234">
+    <state x="319" y="0" key="CommitChangelistDialog2" timestamp="1576188861722">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="319" y="0" key="CommitChangelistDialog2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576121941234" />
-    <state x="319" y="0" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1576097653025" />
+    <state x="319" y="0" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1576188861722" />
     <state width="1656" height="235" key="GridCell.Tab.0.bottom" timestamp="1576187950470">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -264,11 +264,11 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="493" y="110" key="MultipleFileMergeDialog/0.0.1707.920@0.0.1707.920" timestamp="1576085725374" />
-    <state x="347" y="130" key="Vcs.Push.Dialog.v2" timestamp="1576120163447">
+    <state x="347" y="130" key="Vcs.Push.Dialog.v2" timestamp="1576188874266">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="347" y="130" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576120163447" />
-    <state x="347" y="130" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1576097678901" />
+    <state x="347" y="130" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1576188874266" />
     <state x="552" y="110" key="git4idea.branch.GitSmartOperationDialog" timestamp="1576085706750">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
