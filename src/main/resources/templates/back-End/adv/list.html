@@ -117,7 +117,7 @@
                 <!--th:onclick="@{document.location='/elibrary/book/edit/{bookId}'(bookId=${book.bookId})}" -->
                 <th scope="row" th:text="${iterStat.count}"></th>
                 <td th:text="${advertisements.text}"></td>
-                <td><a th:href="@{'/flightbooking/airline/edit/{airlineId}'(airlineId=${advertisements.id})}">Edit</a></td>
+                <td><a th:href="@{'/adv/edit/{id}'(airlineId=${advertisements.id})}">Edit</a></td>
                 <td>
                     <a  th:href="@{'/flightbooking/airline/delete/' + ${advertisements.id}}">Delete</a>
                 </td>
