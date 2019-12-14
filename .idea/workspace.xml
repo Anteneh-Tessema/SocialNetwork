@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf1be03a-f7a6-46b0-aa61-d26a9749e9ad" name="Default Changelist" comment="Project skeleton with pom files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/edu/mum/cs544/socialnetwork/socialnetwork/domain/EGender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialNetwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SocialNetwork.iml" afterDir="false" />
-    </list>
+    <list default="true" id="cf1be03a-f7a6-46b0-aa61-d26a9749e9ad" name="Default Changelist" comment="Project skeleton with pom files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +82,7 @@
       <updated>1576085116269</updated>
       <workItem from="1576085122547" duration="572000" />
       <workItem from="1576095128621" duration="1945000" />
+      <workItem from="1576285570037" duration="287000" />
     </task>
     <task id="LOCAL-00001" summary="Project skeleton">
       <created>1576085256291</created>
