@@ -24,7 +24,7 @@ public class AdvertisementService implements IAdvertisementService {
 
     @Override
     public Advertisement getAdvertisementById(Long id) {
-        return advertisementRepository.findOne(id);
+        return advertisementRepository.getOne(id);
     }
 
     @Override

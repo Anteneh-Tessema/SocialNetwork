@@ -38,7 +38,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
 
         <!--        <a class="navbar-brand" th:href="@{/flightbooking/home}">Home</a>-->
-        <a th:href="@{/flightbooking/home}" class="btn btn-success btn-lg" type="button">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>
+        <a th:href="@{/}" class="btn btn-success btn-lg" type="button">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -117,9 +117,9 @@
                 <!--th:onclick="@{document.location='/elibrary/book/edit/{bookId}'(bookId=${book.bookId})}" -->
                 <th scope="row" th:text="${iterStat.count}"></th>
                 <td th:text="${advertisements.text}"></td>
-                <td><a th:href="@{'/adv/edit/{id}'(airlineId=${advertisements.id})}">Edit</a></td>
+                <td><a th:href="@{'/adv/edit/{id}'(id=${advertisements.id})}">Edit</a></td>
                 <td>
-                    <a  th:href="@{'/flightbooking/airline/delete/' + ${advertisements.id}}">Delete</a>
+                    <a  th:href="@{'/adv/delete/' + ${advertisements.id}}">Delete</a>
                 </td>
             </tr>
             </tbody>
