@@ -36,7 +36,7 @@ public class Access {
 	@Autowired
 	private ITag tagService;
 
-	@GetMapping(value = {"/","/HomePage"})
+	@GetMapping(value = {"/"})
 	public String homePage(){
 		return "welcomepage";
 	}

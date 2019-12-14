@@ -8,11 +8,10 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface RoleRepository extends CrudRepository<Role,Long> {
+public interface RoleRepository extends JpaRepository<Role,Long> {
 
     Role findByRole(String role);
 
     List<Role> findAll();
 
-   Role findById(Long id);
 }
