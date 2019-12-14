@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
+import javax.persistence.Column;
 import javax.persistence.ManyToOne;
 import javax.persistence.MappedSuperclass;
 import java.io.Serializable;
@@ -19,8 +20,10 @@ public class Activity implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 
+	@Column(name = "Recorde_Date")
 	private LocalDateTime recordeDate;
-	
+
+	@Column(name = "deleted")
 	private boolean  deleted;
 	
 	@ManyToOne
