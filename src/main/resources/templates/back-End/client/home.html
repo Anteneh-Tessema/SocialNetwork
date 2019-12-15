@@ -45,7 +45,7 @@
 						<div class="row" style="position: fixed;">
 							<div class="thumbnail" style="width: 115%;">
 								<div class="thumb thumb-rounded thumb-slide">
-									<img src="assets/images/users/user1.png" alt="">
+									<img src="assets/images/users/user4.png" alt="">
 								</div>
 								<div class="caption text-center">
 									<h4 class="text-semibold no-margin">
@@ -70,7 +70,7 @@
 									<div class="list-group-divider"></div>
 									<a href="#" class="list-group-item"><i
 										class="icon-calendar3"></i> My Posts <span
-										class="badge bg-teal-400 pull-right">20</span></a> <a
+										class="badge bg-teal-400 pull-right">0</span></a> <a
 										href="#" class="list-group-item"><i
 										class="icon-cog3"></i> Account settings</a>
 								</div>
@@ -408,30 +408,92 @@
 							</ul>
 
 						</div>
+<!--						<div class="panel panel-flat" >-->
+<!--							<div class="panel-heading">-->
+<!--								<h4 class="text-bold">-->
+<!--									<i class="fa fa-users"></i><span style="margin-left: 3%;">Advertisement</span>-->
+<!--								</h4>-->
+<!--							</div>-->
+<!--							<hr-->
+<!--								style="border: 1px solid #e5e5e5; background-color: #e5e5e5; width: 95%; margin: auto;" />-->
+
+<!--							<div class="list-group list-group-borderless" style="width:95%;margin:auto;">-->
+<!--&lt;!&ndash;									 <a th:href="${'tagPosts_'+tag.key.id}" class="list-group-item text-bold" th:each="tag:${tags}" style="color:#4AB3F4;"><i&ndash;&gt;-->
+<!--&lt;!&ndash;										></i><span th:text="${tag.key.title}"></span><span&ndash;&gt;-->
+<!--&lt;!&ndash;										class="badge bg-info pull-right" th:text="${tag.value+'   posts'}"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;										&ndash;&gt;-->
+<!--&lt;!&ndash;										</a>&ndash;&gt;-->
+<!--&lt;!&ndash;										<div class="list-group-divider"></div>&ndash;&gt;-->
+
+
+<!--								</div>-->
+
+<!--						</div>-->
+
+
 						<div class="panel panel-flat" >
 							<div class="panel-heading">
 								<h4 class="text-bold">
-									<i class="fa fa-users"></i><span style="margin-left: 3%;">Popular trends(#tags)</span>
+									<i class="fa fa-users"></i><span style="margin-left: 3%;">Advertisement </span>
 								</h4>
 							</div>
 							<hr
-								style="border: 1px solid #e5e5e5; background-color: #e5e5e5; width: 95%; margin: auto;" />
+									style="border: 1px solid #e5e5e5; background-color: #e5e5e5; width: 95%; margin: auto;" />
 
-							<div class="list-group list-group-borderless" style="width:95%;margin:auto;">
-									 <a th:href="${'tagPosts_'+tag.key.id}" class="list-group-item text-bold" th:each="tag:${tags}" style="color:#4AB3F4;"><i
-										></i><span th:text="${tag.key.title}"></span><span
-										class="badge bg-info pull-right" th:text="${tag.value+'   posts'}"></span>
-										
-										</a>
-										<div class="list-group-divider"></div>
-									
-								
-								</div>
+							<ul class="media-list media-list-linked pb-5"
+<!--								th:if="${suggestions.size() > 0}">-->
+
+								<li class="media">
+									<form id="newAdvertForm" method="post" action="/adv/new" th:object="${advertisement}">
+										<fieldset>
+											<input type="hidden" name="airlineId" th:value="${advertisement.id}"/>
+
+
+											<div class="row">
+												<div class="col-md-12">
+													<div class="form-group">
+<!--														<span th:if="${#fields.hasErrors('text')}" th:errors="*{text}"-->
+<!--															  class="alert alert-danger"></span>-->
+														<input id="text" name="text" type="text" class="form-control"
+															   th:value="${advert.text}">
+														<!--                        <label for="airlineName">Advertisement photo</label>-->
+														<!--                        <input id="airlineName" name="airlineName" type="text" class="form-control"-->
+														<!--                               th:value="${advert.text}">-->
+													</div>
+												</div>
+											</div>
+								</li>
+<!--									<a-->
+<!--										class="media-link" th:each="Advertisement :${advert}"-->
+<!--										style="border-bottom: 1px solid #e5e5e5;"  th:href="${Advertisement.id}">-->
+<!--									<div class="media-left">-->
+<!--										<img src="assets/images/users/4.jpg" class="img-circle"-->
+<!--											 alt="">-->
+<!--									</div>-->
+<!--&lt;!&ndash;									<div class="media-body">&ndash;&gt;-->
+<!--&lt;!&ndash;											<span class="media-heading text-semibold"&ndash;&gt;-->
+<!--&lt;!&ndash;												  th:text="${user.firstName}"></span> <span&ndash;&gt;-->
+<!--&lt;!&ndash;											class="media-annotation" th:text="${user.gender}"></span><span&ndash;&gt;-->
+<!--&lt;!&ndash;											class="media-annotation label-rounded label-default pull-right text-semibold followUser"&ndash;&gt;-->
+<!--&lt;!&ndash;											style="color: #FFF;" th:id="${user.emailAddress}"><i&ndash;&gt;-->
+<!--&lt;!&ndash;											class="fa fa-plus-circle"></i>follow</span>&ndash;&gt;-->
+<!--&lt;!&ndash;									</div>&ndash;&gt;-->
+
+<!--								</a></li>-->
+
+
+							</ul>
+							<ul class="media-list media-list-linked pb-5"
+								th:if="${suggestions.size() == 0}">
+								<h5 class="text-semibold" style="margin-left: 5%;">
+									No Advertisement found
+									</h4>
+							</ul>
 
 						</div>
 						</div>
 					</div>
-
+<!--#######################################################-->
 
 					<div class="row">
 						<div data-th-replace="back-End/Layout/footer :: myFooter"

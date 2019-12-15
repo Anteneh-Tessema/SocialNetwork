@@ -5,6 +5,7 @@ import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.Post;
 import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.Tag;
 import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.User;
 import com.edu.mum.cs544.socialnetwork.socialnetwork.service.*;
+import com.edu.mum.cs544.socialnetwork.socialnetwork.service.impl.AdvertisementService;
 import com.edu.mum.cs544.socialnetwork.socialnetwork.utility.Messages;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -20,6 +21,9 @@ import java.util.Map;
 
 @Controller
 public class Access {
+
+	@Autowired
+	AdvertisementService advertisementService;
 
 	@Autowired
 	private IPost postService;
@@ -56,6 +60,7 @@ public class Access {
 				model.addAttribute("followers", followerService.followers(user).size());
 				model.addAttribute("followings", followingService.following(user).size());
 				model.addAttribute("tags", tagService.tagPosts());
+				model.addAttribute("advert", advertisementService.getAllAdvertisementList());
 				result = "back-End/client/home";
 			} else if (option.equals("logout")) {
 				session.removeAttribute("user");
