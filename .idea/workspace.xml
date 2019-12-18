@@ -140,9 +140,14 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state width="1643" height="553" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1576085631860" />
-    <state x="493" y="110" key="MultipleFileMergeDialog" timestamp="1576085725374">
+    <state x="210" y="73" key="MergeDialog" timestamp="1576631489825">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
+    <state x="210" y="73" key="MergeDialog/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576631489825" />
+    <state x="265" y="113" width="1266" height="700" key="MultipleFileMergeDialog" timestamp="1576631489841">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="265" y="113" width="1266" height="700" key="MultipleFileMergeDialog/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1576631489841" />
     <state x="493" y="110" key="MultipleFileMergeDialog/0.0.1707.920@0.0.1707.920" timestamp="1576085725374" />
     <state x="347" y="130" key="Vcs.Push.Dialog.v2" timestamp="1576085671462">
       <screen x="0" y="0" width="1707" height="920" />
