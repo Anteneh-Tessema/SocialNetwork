@@ -143,7 +143,7 @@
 											<a style="font-size: 15px;" href="#"
 												th:text="${post.sharedBy.firstName+' Shared Post'}"
 												class="text-bold" ></a> <span class="media-annotation dotted">2
-												hours ago</span>
+												minutes ago</span>
 
 										</h6>
 
@@ -423,7 +423,7 @@
 
 							<div class="list-group list-group-borderless"  style="width:95%;margin:auto;">
 									 <div th:each="adv: ${advert}">
-								<p  th:text="${adv.id}"></p>
+										 <h2><b><p  th:text="${adv.id}"></p><b></h2>
 										 <div  class="media-body" ><p th:text="${adv.text}"></p></div>
 										 <p  th:text="${adv.photo}"></p>
 
