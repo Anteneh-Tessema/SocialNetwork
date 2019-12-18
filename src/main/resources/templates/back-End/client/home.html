@@ -404,7 +404,7 @@
 								th:if="${suggestions.size() == 0}">
 								<h5 class="text-semibold" style="margin-left: 5%;">
 									No Suggestion found
-									</h4>
+									</h5>
 							</ul>
 
 						</div>
@@ -412,19 +412,21 @@
 							<div class="panel-heading">
 								<h4 class="text-bold">
 									<i class="fa fa-users"></i><span style="margin-left: 3%;">Advertisement</span>
+<!--									<div th:each="adv: ${advert}">-->
+<!--										<p th:text="${adv.text}"></p>-->
+<!--									<p th:text="${adv.text}"></p>-->
+<!--									</div>-->
 								</h4>
 							</div>
 							<hr
 								style="border: 1px solid #e5e5e5; background-color: #e5e5e5; width: 95%; margin: auto;" />
 
-							<div class="list-group list-group-borderless" style="width:95%;margin:auto;">
-									 <a th:href="${'tagPosts_'+tag.key.id}" class="list-group-item text-bold" th:each="tag:${tags}" style="color:#4AB3F4;"><i
-										></i><span th:text="${tag.key.title}"></span><span
-										class="badge bg-info pull-right" th:text="${tag.value+'   posts'}"></span>
+							<div class="list-group list-group-borderless"  style="width:95%;margin:auto;">
+									 <div th:each="adv: ${advert}">
+								<p  th:text="${adv.id}"></p>
+										 <div  class="media-body" ><p th:text="${adv.text}"></p></div>
 
-										</a>
-										<div class="list-group-divider"></div>
-
+							</div>
 
 								</div>
 
@@ -444,5 +446,6 @@
 
 			</div>
 		</div>
+	</div>
 </body>
 </html>

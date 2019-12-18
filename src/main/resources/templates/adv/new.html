@@ -108,9 +108,9 @@
                               class="alert alert-danger"></span>
                         <input id="text" name="text" type="text" class="form-control"
                                th:value="${advertisement.text}">
-<!--                        <label for="airlineName">Advertisement photo</label>-->
-<!--                        <input id="airlineName" name="airlineName" type="text" class="form-control"-->
-<!--                               th:value="${advert.text}">-->
+                        <label for="photo">Advertisement Image</label>
+                        <input id="photo" name="files" type="file" class="form-control" multiple
+                               th:value="${advertisement.photo}">
                     </div>
                 </div>
             </div>
