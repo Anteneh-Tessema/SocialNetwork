@@ -20,4 +20,6 @@ public class Advertisement {
 
     private String text;
 
+    private String photo;
+
 }
