@@ -1,6 +1,7 @@
 package com.edu.mum.cs544.socialnetwork.socialnetwork.controller;
 
 
+import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.Admin;
 import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.Post;
 import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.Tag;
 import com.edu.mum.cs544.socialnetwork.socialnetwork.domain.User;
@@ -48,11 +49,27 @@ public class Access {
 	public String landingPage() {
 		return "login";
 	}
-
+	//#######################################################
+	@RequestMapping(value = "/adminlogin", method = RequestMethod.GET)
+	public String adminLogin() {
+		return "adminLogin";
+	}
+	//#######################################################
 	@RequestMapping(value = "{option}", method = RequestMethod.GET)
 	public String accessPage(@PathVariable("option") String option, ModelMap model, HttpSession session) {
 		String result = "";
+
 		try {
+			//#####################################################
+			Admin admin = (Admin) session.getAttribute("admin");
+			if (option.equals("adv/list")||option.equals("adv/new")||option.equals("adv/edit") ) {
+				model.addAttribute("advert", advertisementService.getAllAdvertisementList());
+				result = "adv/list";
+			} else if (option.equals("logout")) {
+				session.removeAttribute("admin");
+				return "redirect:/";
+			}
+			//#####################################################
 			User user = (User) session.getAttribute("user");
 			if (option.equals("home")) {
 				model.addAttribute("posts", postService.allHomePost(user));

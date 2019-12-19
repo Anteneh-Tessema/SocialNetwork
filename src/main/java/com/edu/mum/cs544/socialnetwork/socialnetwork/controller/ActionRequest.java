@@ -17,6 +17,8 @@ import java.util.Map;
 public class ActionRequest {
 
 	@Autowired
+	private IAdmin adminService;
+	@Autowired
 	private IUser userService;
 
 	@Autowired
@@ -88,6 +90,7 @@ public class ActionRequest {
 				post.setUser(user);
 				result = postService.createPost(post);
 			} else if (option.equals("login")) {
+
 				User user = userService.findByUsername(map.get("username"));
 				if (user != null) {
 					if (user.getPassword().equals(Md5.md5(map.get("password")))) {
@@ -99,6 +102,22 @@ public class ActionRequest {
 				} else {
 					result = Messages.account_not_found;
 				}
+
+				//##################################################################
+			}else if (option.equals("adminlogin")) {
+
+				Admin admin = adminService.findByUsername(map.get("username"));
+				if (admin != null) {
+					if (admin.getPassword().equals(Md5.md5(map.get("password")))) {
+						session.setAttribute("admin", admin);
+						result = Messages.access_approved;
+					} else {
+						result = Messages.invalid_password;
+					}
+				} else {
+					result = Messages.account_not_found;
+				}
+				//##################################################################
 			} else if (option.contains("addComment")) {
 				Post post = postService.findOne(option.split("_")[1]);
 				Comment comment = new Comment();

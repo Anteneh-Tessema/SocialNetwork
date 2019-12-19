@@ -36,7 +36,7 @@ public class Post implements Serializable{
 	
 	@ManyToOne
 	private Tag tag;
-	
+
 	
 	public Post() {
 		id = UUID.randomUUID().toString();

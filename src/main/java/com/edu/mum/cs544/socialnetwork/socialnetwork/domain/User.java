@@ -3,6 +3,7 @@ package com.edu.mum.cs544.socialnetwork.socialnetwork.domain;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -20,6 +21,7 @@ public class User implements Serializable{
 	private static final long serialVersionUID = 1L;
 
 	@Id
+
 	private String id;
 	
 	private String firstName;
