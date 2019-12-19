@@ -448,7 +448,7 @@ function createChoice() {
 
 function createUserAccount() {
 	var formData = $('#register_form').serialize();
-	alert(formData);
+	//alert(formData);
 	$.ajax({
 		url : 'formSubmission/createAccount',
 		method : 'POST',
