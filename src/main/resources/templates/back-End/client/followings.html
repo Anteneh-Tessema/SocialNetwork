@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from followtechnique.com/themes/bird_v1/theme/page_starter.htm by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 13 Jul 2016 20:28:57 GMT -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SOCIAL NETWORK MIS</title>
+
+<div data-th-replace="back-End/Layout/CSS :: myCss"></div>
+
+<!-- /global stylesheets -->
+
+<!-- Core JS files -->
+
+
+
+</head>
+
+<body>
+
+	<div data-th-replace="back-End/Layout/header :: myHeader"></div>
+	<div class="page-container" style="min-height: 700px">
+		<div class="page-content">
+			<!--  <div data-th-replace="back-End/Layout/content :: myContent">-->
+			<div class="content-wrapper" data-th-fragment="myContent">
+
+				<!-- Page header -->
+				<div class="page-header">
+					<div class="page-header-content">
+
+						<ul class="breadcrumb">
+							<li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+							<li class="active">Posts</li>
+						</ul>
+
+					</div>
+				</div>
+				<!-- /page header -->
+
+
+				<!-- Content area -->
+
+				<div class="content">
+
+					<!-- <h4>
+						Meeting Details<span style="margin-left: 5px;"><i
+							class=" fa fa-info-circle"></i></span>
+					</h4> -->
+
+					<div class="row" style="margin-top: 5px;"></div>
+					<div class="col-md-3 col-md-4">
+
+						<div class="thumbnail">
+							<div class="thumb thumb-rounded thumb-slide">
+								<img src="assets/images/users/user1.png" alt="">
+							</div>
+							<div class="caption text-center">
+								<h4 class="text-semibold no-margin">
+									<span th:text="${session.user.firstName}"></span> <small
+										class="display-block"><span
+										th:text="${session.user.emailAddress}"></span></small>
+								</h4>
+
+							</div>
+						</div>
+						<div class="panel panel-flat">
+							<div class="list-group list-group-borderless">
+								<a href="home" class="list-group-item"><i
+									class="icon-user"></i> Home</a> <a href="#"
+									class="list-group-item"><i class="icon-users"></i>
+									My Profile </a> <a href="myfollowers"
+									class="list-group-item"><i class="icon-users"></i>
+									Followers<span class="badge bg-danger pull-right"
+									th:text="${followers}"></span></a>
+								<div class="list-group-divider"></div>
+								<a href="user_profile.htm#" class="list-group-item"><i
+									class="icon-calendar3"></i> My Posts <span
+									class="badge bg-teal-400 pull-right">20</span></a> <a
+									href="user_profile.htm#" class="list-group-item"><i
+									class="icon-cog3"></i> Account settings</a>
+							</div>
+						</div>
+
+
+					</div>
+					<div class="col-md-6 col-sm-8">
+
+						<div class="panel panel-flat">
+							<div class="panel-heading">
+								<h3 class="panel-title mb-10 text-bold">People you follow</h4>
+								<hr style="background-color:black;border:1px solid black;"/>
+							</div>
+
+							<ul class="media-list media-list-linked pb-5"
+								th:if="${myFollowings.size() > 0}">
+
+								<li class="media"><a 
+									class="media-link" th:each="user :${myFollowings}"
+									style="border-bottom: 1px solid #e5e5e5;" th:href="${'userWall_'+user.sourceUser.id}">
+										<div class="media-left">
+											<img src="assets/images/users/user2.png" class="img-circle"
+												alt="">
+										</div>
+										<div class="media-body">
+											<span class="media-heading" th:text="${user.sourceUser.firstName}"></span>
+											<span class="media-annotation" th:text="${user.sourceUser.gender}"></span>
+											<span
+												class="media-annotation label-rounded label-danger pull-right unfollowUser" style="color:#FFF;" th:id="${user.id}"><i class="fa fa-ban"></i>unfollow</span>
+											
+										</div>
+
+								
+								<div th:id="${'unfollow_'+user.id}" class="modal fade">
+												<div class="modal-dialog modal-sm">
+													<form method="POST" th:id="${user.id}"  class="unfollowing">
+														<div class="modal-content">
+															<div class="modal-header">
+																<button type="button" class="close" data-dismiss="modal">&times;</button>
+																<h4 class="modal-title">
+																	<b>UNFOLLOW USER</b>
+																</h4>
+															</div>
+
+															<div class="modal-body">
+																<div class="row">
+																	<div class="col-md-12">
+																		<h4>Are you sure you want to unfollow  <span class="text-semibold" th:text="${user.sourceUser.firstName}" ></span>?</h4>
+																	</div>
+																	<input type="hidden" th:value="${user.id}"
+																		name="userId" id="userId" />
+																</div>
+															</div>
+															<div class="modal-footer">
+																<button type="button" class="btn btn-default"
+																	data-dismiss="modal">
+																	<i class="fa fa-close"></i>Cancel
+																</button>
+																<button type="submit" class="btn btn-primary">
+																	<i class="fa fa-check"></i>Submit
+																</button>
+															</div>
+														</div>
+													</form>
+												</div>
+											</div>
+											
+								   
+								
+								</li>
+
+
+							</ul>
+							<ul class="media-list media-list-linked pb-5"
+								th:if="${myFollowings.size() == 0}">
+								<h5 class="text-semibold" style="margin-left: 5%;">
+									You have 0 followers
+									</h4>
+							</ul>
+
+						</div>
+
+
+
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<div class="panel panel-flat">
+							<div class="panel-heading">
+								<h3 class="panel-title mb-10 text-bold">People you may know</h4>
+							</div>
+
+							<ul class="media-list media-list-linked pb-5"
+								th:if="${suggestions.size() > 0}">
+
+								<li class="media"><a href="user_profile.htm#"
+									class="media-link" th:each="user :${suggestions}"
+									style="border-bottom: 1px solid #e5e5e5;">
+										<div class="media-left">
+											<img src="assets/images/users/user2.png" class="img-circle"
+												alt="">
+										</div>
+										<div class="media-body">
+											<span class="media-heading" th:text="${user.firstName}"></span>
+											<span class="media-annotation" th:text="${user.gender}"></span>
+											<span
+												class="media-annotation label-rounded label-default pull-right followUser"
+												style="color: #FFF;" th:id="${user.emailAddress}"><i
+												class="fa fa-plus-circle"></i>follow</span>
+										</div>
+
+								</a></li>
+
+
+							</ul>
+							<ul class="media-list media-list-linked pb-5"
+								th:if="${suggestions.size() == 0}">
+								<h5 class="text-semibold" style="margin-left: 5%;">
+									No Suggestion found
+									</h4>
+							</ul>
+
+						</div>
+					</div>
+
+
+					<div class="row">
+						<div data-th-replace="back-End/Layout/footer :: myFooter"
+							style="margin-top: 20%;"></div>
+					</div>
+					<div data-th-replace="/back-End/Layout/custom :: myScript"></div>
+					
+					<script>
+					   (function(){
+						  $('.unfollowUser').click(function(event){
+							  event.preventDefault();
+							  var userId = $(this).attr('id');
+							  $('#unfollow_'+userId).modal();
+						  });
+						  
+						  $('.unfollowing').submit('click',function(event){
+							  event.preventDefault();
+							  var userId = $(this).attr('id');
+							  unfollow(userId);
+						  });
+						  
+						  
+					   })();
+					   
+					   function unfollow(userId){
+						   $.ajax({
+							   url : 'formSubmission/unfollowUser',
+							   method : 'POST',
+							   data : {'userId' : userId},
+							   success : function(data){
+								   if(data == 'Action is successfully performed'){
+									   successMessage(data);
+								   }else{
+									   failureMessage(data);
+								   }
+							   }
+						   });
+					   }
+					</script>
+					
+
+
+				</div>
+
+			</div>
+		</div>
+</body>
+</html>

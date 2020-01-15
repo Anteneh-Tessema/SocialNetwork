@@ -1,5 +1,10 @@
 package com.edu.mum.cs544.socialnetwork.socialnetwork.domain;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+import javax.persistence.Column;
 import javax.persistence.ManyToOne;
 import javax.persistence.MappedSuperclass;
 import java.io.Serializable;
@@ -7,14 +12,18 @@ import java.time.LocalDateTime;
 
 
 @MappedSuperclass
+@Data
+@AllArgsConstructor
+@EqualsAndHashCode
 public class Activity implements Serializable{
 	
-	
-	
+
 	private static final long serialVersionUID = 1L;
 
+	@Column(name = "Recorde_Date")
 	private LocalDateTime recordeDate;
-	
+
+	@Column(name = "deleted")
 	private boolean  deleted;
 	
 	@ManyToOne
@@ -28,7 +37,6 @@ public class Activity implements Serializable{
 		this.recordeDate = LocalDateTime.now();
 		this.deleted = Boolean.FALSE;
 	}
-
 
 	public User getAddedBy() {
 		return addedBy;
@@ -70,6 +78,4 @@ public class Activity implements Serializable{
 	}
 	
 	
-	
-
 }
